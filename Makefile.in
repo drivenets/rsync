@@ -27,6 +27,8 @@ MKDIR_P=@MKDIR_P@
 VPATH=$(srcdir)
 SHELL=/bin/sh
 
+CFLAGS+=-U_FORTIFY_SOURCE
+
 .SUFFIXES:
 .SUFFIXES: .c .o
 
